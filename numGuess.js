@@ -1,6 +1,7 @@
 let randomNumber = Math.floor(Math.random() * 100);
 let count = 0;
 
+//what's this?
 function guessCheck() {
   let guess = parseFloat(document.querySelector("#guessInput").value);
   count++;
